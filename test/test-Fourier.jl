@@ -3,7 +3,7 @@ using FourierPeriod, Test
 # gr(framestyle=:box)
 
 
-function test_fourier(func; is_plot=true)
+function test_fourier(func; is_plot=false)
   N = 2^12 - 1
   P = 10.0   #
   Δt = P / N

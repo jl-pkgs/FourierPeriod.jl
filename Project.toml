@@ -16,3 +16,9 @@ Dates = "1.11.0"
 FFTW = "1.9.0"
 Ipaper = "0.3.0"
 NaNStatistics = "0.6.54"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]

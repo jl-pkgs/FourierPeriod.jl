@@ -3,7 +3,7 @@ module FourierPeriod
 
 using FFTW, DataFrames
 using Ipaper, Dates
-using NaNStatistics: nansum, nancumsum, nanrange
+using NaNStatistics: nansum, nancumsum, nanrange, nanstd
 
 include("Fourier.jl")
 include("moving_Fourier.jl")
